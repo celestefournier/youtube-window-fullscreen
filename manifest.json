@@ -1,0 +1,11 @@
+{
+  "manifest_version": 2,
+  "version": "0.0.1",
+  "name": "YouTube Theater Fullscreen",
+  "description": "YouTube Theater Fullscreen",
+  "author": "Gustavo Fournier",
+  "content_scripts": [{
+    "css": ["style.css"],
+    "matches": ["https://www.youtube.com/watch?v=*"]
+  }]
+}

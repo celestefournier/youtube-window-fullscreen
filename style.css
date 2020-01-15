@@ -1,0 +1,16 @@
+#masthead-container {
+  display: none;
+}
+
+#page-manager {
+  margin-top: 0 !important;
+}
+
+#player-theater-container {
+  max-height: unset !important;
+  min-height: unset !important;
+}
+
+#player-theater-container .video-stream.html5-main-video {
+  top: 0;
+}
